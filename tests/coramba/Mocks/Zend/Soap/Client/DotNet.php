@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibsciss\Mocks\Zend\Soap\Client;
+namespace Coramba\Mocks\Zend\Soap\Client;
 
-class DotNet extends \Ibsciss\Zend\Soap\Client\DotNet
+class DotNet extends \Coramba\Zend\Soap\Client\DotNet
 {
 
     public function setLastMethod($lastMethod)
