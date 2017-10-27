@@ -1,5 +1,5 @@
 <?php
-namespace Ibsciss\Silex\Provider;
+namespace Coramba\Silex\Provider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

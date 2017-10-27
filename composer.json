@@ -6,6 +6,10 @@
     "minimum-stability": "dev",
     "authors": [
         {
+          "name": "Coramba",
+          "email": "coramba@yandex.ru"
+        },
+        {
             "name": "Ibsciss",
             "email": "community@ibsciss.com",
             "homepage": "http://www.ibsciss.com"
@@ -28,7 +32,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Ibsciss": "src/"
+            "Coramba": "src/"
         }
     }
 }

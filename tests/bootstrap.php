@@ -1,4 +1,4 @@
 <?php
 
 $loader = require __DIR__.'/../vendor/autoload.php';
-$loader->add('Ibsciss', __DIR__);
+$loader->add('coramba', __DIR__);

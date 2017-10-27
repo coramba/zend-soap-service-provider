@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibsciss\Zend\Soap\Client;
+namespace Coramba\Zend\Soap\Client;
 
 class DotNet extends \Zend\Soap\Client\DotNet
 {

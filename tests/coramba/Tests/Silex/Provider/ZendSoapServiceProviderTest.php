@@ -1,9 +1,9 @@
 <?php
 
-namespace Ibsciss\Tests\Silex\Provider;
+namespace Coramba\Tests\Silex\Provider;
 
 use Silex\Application;
-use Ibsciss\Silex\Provider\ZendSoapServiceProvider;
+use Coramba\Silex\Provider\ZendSoapServiceProvider;
 
 /**
  * Zend Soap Tests Cases
@@ -250,7 +250,7 @@ class ZendSoapServiceProviderTest extends \PHPUnit_Framework_TestCase
     {
         $app = $this->getApplication();
         $app['soap.dotNet'] = true;
-        $app['soap.client.dotNet.class'] = '\Ibsciss\Mocks\Zend\Soap\Client\DotNet';
+        $app['soap.client.dotNet.class'] = '\Coramba\Mocks\Zend\Soap\Client\DotNet';
         $client = $app['soap.client'];
         $client->setLastMethod('testCall');
 
@@ -278,7 +278,7 @@ class ZendSoapServiceProviderTest extends \PHPUnit_Framework_TestCase
     {
         $app = $this->getApplication();
         $app['soap.dotNet'] = true;
-        $app['soap.client.dotNet.class'] = '\Ibsciss\Mocks\Zend\Soap\Client\DotNet';
+        $app['soap.client.dotNet.class'] = '\Coramba\Mocks\Zend\Soap\Client\DotNet';
         $client = $app['soap.client'];
         $client->setLastMethod('testCall');
         $parameters = new \stdClass();

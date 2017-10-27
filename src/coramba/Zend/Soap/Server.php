@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibsciss\Zend\Soap;
+namespace Coramba\Zend\Soap;
 
 class Server extends \Zend\Soap\Server
 {
